@@ -14,7 +14,7 @@ class EventLoop {
         // we need to use global as an alternate since setImmediate expects this == window
         var global = window;
 #end
-        haxe.macro.Compiler.includeFile("lib/setImmediate/setImmediate.js");
+        haxe.macro.Compiler.includeFile("../../lib/setImmediate/setImmediate.js");
     }
 #end
 
